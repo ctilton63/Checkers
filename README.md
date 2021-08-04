@@ -1,5 +1,5 @@
 # Checkers
-The game of checkers with a few rule adjustments
+The game of checkers with a few rule adjustments. In order to run the code, please run project.java.
 The Class main begins by drawing the initial game board. There are ten rows and ten columns with a black and white checkerboard pattern. Two arrays of Chips of length 10 are then initialized to represent the players chips and the computers chips. The Class Chips is explained further below. An array of arrays holding doubles (it should have been integers but I changed the program later on) called board is then initialized to keep track of which squares on the board are occupied by chips. If there is a chip at row three, column four, board [3][4] = 1. If there is no chip on that square, board[3][4] = 0. Main then draws all the chips on the board based on what their instance variables for x location (xL) and y location (yL). xL and yL are both integers between 0 and 9, inclusive. These numbers are also used to manage and manipulate board[][]. The instructions are then displayed.
 
 Instructions:
